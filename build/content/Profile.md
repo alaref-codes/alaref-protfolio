@@ -6,7 +6,7 @@
 - مهندس برمجيات.
 
 ## About
-I am a qualified Back-end developer with 1 year, 8 months of experience in this field.   .
+I am a qualified Software Engineer with two years of experience in this field.   .
 
 ## Contact
 Write your "Contact" section here.
