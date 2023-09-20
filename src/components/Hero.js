@@ -92,16 +92,6 @@ export default function Header({ color }) {
                 right={-71}
                 top={"10px"}
               />
-              <Text
-                fontSize={"lg"}
-                fontFamily={"Caveat"}
-                position={"absolute"}
-                right={"-85px"}
-                top={"-15px"}
-                transform={"rotate(10deg)"}
-              >
-                Click me!
-              </Text>
             </Box>
           </Stack>
         </Stack>
