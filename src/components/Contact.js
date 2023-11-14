@@ -41,18 +41,15 @@ export default function Contact({ color }) {
             <Divider orientation="horizontal" />
           </Stack>
           <Stack spacing={4} as={Container} maxW={"3xl"} textAlign={"center"}>
+          <Heading fontSize={"3xl"}>تواصل معي</Heading>
             <Heading fontSize={"3xl"}>Let's stay in touch!</Heading>
             <Text color={"gray.600"} fontSize={"xl"} px={4}>
-              {profile.contact}
-            </Text>
-            <Text color={`${color}.500`} fontWeight={600} fontSize={"lg"} px={4}>
-              {profile.email}
+            alarefabushaala@gmail.com
             </Text>
             <Center>
               <HStack pt={4} spacing={4}>
                 <a href="https://linkedin.com/in/alaref-abushaala" target="_blank" ><FaLinkedin size={28}/></a>
                 <a href="https://github.com/alaref-codes" target="_blank"><FaGithub onClick={github} size={28} /></a>
-                <a href="alarefabushaala@gmail.com" target="_blank" ><FaEnvelope onClick={email} size={28} /></a>
               </HStack>
             </Center>
           </Stack>

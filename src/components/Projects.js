@@ -70,7 +70,7 @@ export default function Projects({ color }) {
 
                       <HStack py={2}>
                         {project.buttons.map((button) => (
-                          <a key={button.text} href={button.href}>
+                          <a key={button.text} target="_blank" href={button.href}>
                             <Button color={`${color}.400`}>
                               {button.text}
                             </Button>

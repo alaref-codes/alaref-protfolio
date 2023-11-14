@@ -7,7 +7,8 @@
 - I am a qualified Software Engineer with two years of experience in this field.
 
 ## About
-I am a Software Engineer student in my last semester at the College of Electronic Technology. I have a strong focus on back-end development, with experience in database design, Linux, and other related technologies. I have 1 year and 8 months of experience in this field, working as a Back-end Developer at a local tech company.
+Software Engineer with 2+ years of experience in back-end development, proficient in Golang, Laravel PHP, and MySQL. Designed and implemented APIs for a multi-tenant POS system using Golang & MySQL. Maintained multiple web applications
+using Laravel PHP & MySQL. Interested in Microsoft Azure.
  
 ## Contact
 - LinkedIn: https://linkedin.com/in/alaref-abushaala
