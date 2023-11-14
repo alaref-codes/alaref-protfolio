@@ -11,7 +11,7 @@
 
 ## Alataqnya For Data Communication
 - *Back-end Developer* | September 2021 - April 2023
-- ![logo512](https://media.licdn.com/dms/image/D4E0BAQGRePhFkX2ctA/company-logo_200_200/0/1698242886333/altaqnya_com_ly_logo?e=1707955200&v=beta&t=a00raJcWuTGx64s9V9MZ1Xy4xF19ldCHIt1stBSPhJ4)
+- ![logo512](assets/altaqnya_logo.jpeg)
 - Tags: Category 1
 - Badges:
   -  [blue]

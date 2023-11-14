@@ -27,10 +27,19 @@ Personal Project: Multi-tenant Food and Café Menus Management System, , built w
   - Visit the website [https://imenu.ly]
 
 ## TaqnyaBox POS
-Multi-tenant POS system, I have collaborated in the process of building the back-end for this project with [Altaqnya for data communication](https://altaqnya.com.ly/), I Designed the database, build most the API endpoints for this project with Golang programming language and used MySql for the database
+Multi-tenant POS system, I have collaborated in the process of building the back-end for this project with Altaqnya for data communication company, I Designed the database, build most the API endpoints for this project with Golang programming language and used MySql for the database
 - ![600x200](https://www.taqnyabox.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffull%20logo-01-01.d4aa3090.png&w=384&q=75)
 - Tags: Category 2
 - Badges:
   - Launched [green]
 - Buttons:
   - Visit the website [https://www.taqnyabox.com]
+
+## Alsakena Center
+
+- ![600x200](/assets/sew3.jpeg)
+- Tags: Category 2
+- Badges:
+  - Launched [green]
+- Buttons:
+  - Visit the website [https://tinyurl.com/2xf3deaj]
