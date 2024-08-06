@@ -24,6 +24,14 @@ export default function Header({ color }) {
                 "noreferrer,noopener"
               );
   };
+
+  const resume = () => {
+    window.open(
+                "https://docs.google.com/presentation/d/e/2PACX-1vSiIjsZphIHiyTKdidLtjVBlKlvGQzem-2DKz3ejfBO5D-avYbqcOfBP-WsmAwZoYNJ2JI5Jy-8Jm-O/pub?start=false&loop=false&delayms=3000",
+                "_blank",
+                "noreferrer,noopener"
+              );
+  };
   return (
     <>
       <Heading>
@@ -61,7 +69,6 @@ export default function Header({ color }) {
             <Button
               colorScheme={color}
               bg={`${color}.400`}
-              rounded={"full"}
               px={6}
               _hover={{
                 bg: `${color}.500`,
@@ -71,23 +78,12 @@ export default function Header({ color }) {
               Let's connect!
             </Button>
             <Button
-              variant={"link"}
-              colorScheme={"blue"}
-              size={"sm"}
-              onClick={scrollToContact}
+              colorScheme='teal' variant='outline'
+              size={"md"}
+              onClick={resume}
             >
-              Contact Me
+              View Resume
             </Button>
-            <Box>
-              <Icon
-                as={Arrow}
-                color={useColorModeValue("gray.800", "gray.300")}
-                w={71}
-                position={"absolute"}
-                right={-71}
-                top={"10px"}
-              />
-            </Box>
           </Stack>
         </Stack>
       </Container>
