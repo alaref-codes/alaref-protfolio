@@ -23,9 +23,9 @@ function App() {
       <Header color={color} />
       <About color={color} />
       <Skills color={"blue"} />
-      <Courses color={color} />
       <Experience color={color} />
       <Projects color={color} />
+      <Courses color={color} />
       <Contact color={color} />
       <Footer />
     </>

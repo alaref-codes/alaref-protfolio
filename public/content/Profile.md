@@ -2,12 +2,12 @@
 - العارف أبو شعالة | Alaref Abushaala
 
 ## Header
-- مرحبا، أنا العارف أبو شعالة. Hello,I'm Alaref Abushaala
+- العارف أبو شعالة | Alaref Abushaala
 - Software Engineer.
-- I am a qualified Software Engineer with two years of experience in this field.
+- Building Software Solution.
 
 ## About
-Software Engineer with 2+ years of experience in back-end development, proficient in Golang, Laravel PHP, and MySQL. Designed and implemented APIs for a multi-tenant POS system using Golang & MySQL. Maintained multiple web applications
+Software Engineer with almost three years of experience in back-end development, proficient in Golang, Laravel PHP, and MySQL. Designed and implemented APIs for a multi-tenant POS system using Golang & MySQL. Maintained multiple web applications
 using Laravel PHP & MySQL. Interested in Microsoft Azure.
  
 ## Contact
