@@ -5,8 +5,7 @@
 - Badges:
   -  [blue]
 - List Items:
-  - Champion for cloud adoption, guiding clients on the benefits and use cases of PaaS offerings like DBaaS and Kubernetes as a Service.
-  - Proficient in managing and maintaining a PaaS platform, ensuring high availability, scalability, and security
+  - Proficient in managing and adminstrating a PaaS platform.
   - Developing and maintaining softwares for the company (e.g alaan.ly , blog.alaan.ly)
 
 

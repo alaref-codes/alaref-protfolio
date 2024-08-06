@@ -18,7 +18,7 @@ export default function Footer() {
         py={4}
         align="center"
       >
-        <Text>© 2023 Alaref Abushaala.</Text>
+        <Text>© 2024 Alaref Abushaala.</Text>
       </Container>
     </Box>
   );
