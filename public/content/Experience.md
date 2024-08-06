@@ -1,16 +1,19 @@
 ## Alaan For IT & Communication
 - *Systems Engineer* | Mars 2024 - Present
-- ![logo512](https://media.licdn.com/dms/image/D4D0BAQEAJi-C7o_k5g/company-logo_200_200/0/1716481953759/alaancompany_logo?e=1730937600&v=beta&t=nuQtxC1h3AVElnBvzQ7kwkuy4jF1D-3dCZX9EjX1a7M)
+- ![logo512](https://i.imgur.com/k5KJVUO.png)
 - Tags: Category 1
 - Badges:
   -  [blue]
 - List Items:
-  - Develop and deliver engaging lectures and course materials on various database concepts: This might include data models, relational theory, SQL programming, query optimization, database administration, and emerging trends in database technologies.
+  - Champion for cloud adoption, guiding clients on the benefits and use cases of PaaS offerings like DBaaS and Kubernetes as a Service.
+  - Proficient in managing and maintaining a PaaS platform, ensuring high availability, scalability, and security
+  - Developing and maintaining softwares for the company (e.g alaan.ly , blog.alaan.ly)
+
 
 
 ## College of Electronic Technology Tripoli
 - *Collaborating Intstructor* | January 2024 - April 2024
-- ![logo512](https://media.licdn.com/dms/image/D4E0BAQGOnakHCicB3Q/company-logo_200_200/0/1682859128737/college_of_electronic_technology____logo?e=1730937600&v=beta&t=vp8X0Qkcr6cDd9I2Hni5nlyHqBerbAjsfGcJLGjJe9U)
+- ![logo512](https://i.imgur.com/iDkOFNR.png)
 - Tags: Category 1
 - Badges:
   -  [blue]
