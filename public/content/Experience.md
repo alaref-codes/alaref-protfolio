@@ -5,7 +5,7 @@
 - Badges:
   -  [blue]
 - List Items:
-  - Proficient in managing and adminstrating a PaaS platform.
+  - Proficient in managing and adminstrating a PaaS platforqm.
   - Developing and maintaining softwares for the company (e.g alaan.ly , blog.alaan.ly)
 
 
@@ -32,7 +32,7 @@
 
 ## Alataqnya For Data Communication
 - *Back-end Developer* | September 2021 - April 2023
-- ![logo512](assets/altaqnya_logo.jpeg)
+- ![logo512](https://i.imgur.com/sqlrp3d.jpeg)
 - Tags: Category 1
 - Badges:
   -  [blue]
