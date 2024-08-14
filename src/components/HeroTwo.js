@@ -18,6 +18,21 @@ import { GoChevronRight } from 'react-icons/go';
 import { MdBolt } from 'react-icons/md';
 
 const HeroSection = () => {
+  const linkedin = () => {
+    window.open(
+                "https://linkedin.com/in/alaref-abushaala",
+                "_blank",
+                "noreferrer,noopener"
+              );
+  };
+
+  const resume = () => {
+    window.open(
+                "https://docs.google.com/presentation/d/e/2PACX-1vSiIjsZphIHiyTKdidLtjVBlKlvGQzem-2DKz3ejfBO5D-avYbqcOfBP-WsmAwZoYNJ2JI5Jy-8Jm-O/pub?start=false&loop=false&delayms=3000",
+                "_blank",
+                "noreferrer,noopener"
+              );
+  };
   return (
     <Container maxW="6xl" px={{ base: 6, md: 3 }} py={24}>
       <Stack direction={{ base: 'column', md: 'row' }} justifyContent="center">
@@ -30,24 +45,12 @@ const HeroSection = () => {
             w="max-content"
             bg={useColorModeValue('gray.300', 'gray.700')}
           >
-            <Box
-              py={1}
-              px={2}
-              lineHeight={1}
-              rounded="full"
-              color="white"
-              bgGradient="linear(to-l, #0ea5e9,#2563eb)"
-            >
-              What's new
-            </Box>
-            <HStack spacing={1} alignItems="center" justifyContent="center">
-              <Text lineHeight={1}>See our recent updates</Text>
-              <Icon as={GoChevronRight} w={4} h={4} />
-            </HStack>
+          <chakra.h1 fontSize="5xl" lineHeight={1} fontWeight="bold" textAlign="left">
+            العارف أبو شعالة<br />
+          </chakra.h1>           
           </HStack>
           <chakra.h1 fontSize="5xl" lineHeight={1} fontWeight="bold" textAlign="left">
-            Build products faster <br />
-            <chakra.span color="teal">in ChakraUI</chakra.span>
+            Alaref Abushaala<br />
           </chakra.h1>
           <Text
             fontSize="1.2rem"
@@ -56,7 +59,7 @@ const HeroSection = () => {
             fontWeight="400"
             color="gray.500"
           >
-            Alaref Abushaala
+            Passionate Software Engineer
           </Text>
           <HStack
             spacing={{ base: 0, sm: 2 }}
@@ -71,30 +74,22 @@ const HeroSection = () => {
               size="lg"
               rounded="md"
               mb={{ base: 2, sm: 0 }}
+              onClick={linkedin}
               zIndex={5}
               lineHeight={1}
               bgGradient="linear(to-l, #0ea5e9,#2563eb)"
               _hover={{ bgGradient: 'linear(to-l, #0ea5e9,#2563eb)', opacity: 0.9 }}
             >
-              <chakra.span> Explore ComponentsKart </chakra.span>
+              <chakra.span> Let's Connect </chakra.span>
               <Icon as={MdBolt} h={4} w={4} ml={1} />
             </chakra.button>
-            <Box
-              d="flex"
-              justifyContent="center"
-              bg={useColorModeValue('white', 'gray.800')}
-              w={{ base: '100%', sm: 'auto' }}
-              border="1px solid"
-              borderColor="gray.300"
-              p={3}
-              lineHeight={1.18}
-              rounded="md"
-              boxShadow="md"
-              as={Link}
-              zIndex={55555555}
+            <Button
+              colorScheme='teal' variant='outline'
+              size={"md"}
+              onClick={resume}
             >
-              Watch Video
-            </Box>
+              View Resume
+            </Button>
           </HStack>
         </Stack>
         <Box ml={{ base: 0, md: 5 }} pos="relative">
