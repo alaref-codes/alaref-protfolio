@@ -7,6 +7,8 @@ import theme from "./theme";
 import reportWebVitals from './reportWebVitals';
 // 1. Import the extendTheme function
 import { ChakraProvider } from "@chakra-ui/react";
+import { SpeedInsights } from "@vercel/speed-insights/react"
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +16,7 @@ root.render(
     <React.StrictMode>
       <ColorModeScript initialColorMode={theme.config.initialColorMode} />
       <App/>
+      <SpeedInsights/>
     </React.StrictMode>
   </ChakraProvider>
 );
