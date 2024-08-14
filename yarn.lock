@@ -3236,6 +3236,11 @@
     "@typescript-eslint/types" "5.53.0"
     eslint-visitor-keys "^3.3.0"
 
+"@vercel/speed-insights@^1.0.12":
+  version "1.0.12"
+  resolved "https://registry.npmjs.org/@vercel/speed-insights/-/speed-insights-1.0.12.tgz"
+  integrity sha512-ZGQ+a7bcfWJD2VYEp2R1LHvRAMyyaFBYytZXsfnbOMkeOvzGNVxUL7aVUvisIrTZjXTSsxG45DKX7yiw6nq2Jw==
+
 "@webassemblyjs/ast@1.11.1":
   version "1.11.1"
   resolved "https://registry.npmjs.org/@webassemblyjs/ast/-/ast-1.11.1.tgz"
