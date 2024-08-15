@@ -95,12 +95,12 @@ const HeroSection = () => {
         <Box ml={{ base: 0, md: 5 }} pos="relative">
           <DottedBox />
           <Image
-            w="100%"
-            h="100%"
+            w="90%"
+            h="90%"
             minW={{ base: 'auto', md: '30rem' }}
             objectFit="cover"
             src={`https://i.imgur.com/HwFWvwd.jpeg`}
-            rounded="md"
+            rounded="xl"
             fallback={<Skeleton />}
           />
         </Box>
