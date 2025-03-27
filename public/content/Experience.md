@@ -1,5 +1,15 @@
+## Libya Telecom & Technology
+- *Software Engineer* | November 2024 - Present
+- ![logo512](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/LTT_Logo_2024.png/330px-LTT_Logo_2024.png)
+- Tags: Category 1
+- Badges:
+  -  [blue]
+- List Items:
+  - Building & maintaining web applications with Laravel PHP, Vue.js, and Inertia.js.
+  - Creating and maintaining data dashboards using Power BI, SQL Server, and Excel.
+
 ## Alaan For IT & Communication
-- *Systems Engineer* | Mars 2024 - Present
+- *Systems Engineer* | Mars 2024 - November 2024
 - ![logo512](https://i.imgur.com/k5KJVUO.png)
 - Tags: Category 1
 - Badges:
