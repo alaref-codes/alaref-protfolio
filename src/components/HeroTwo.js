@@ -99,7 +99,7 @@ const HeroSection = () => {
             h="90%"
             minW={{ base: 'auto', md: '30rem' }}
             objectFit="cover"
-            src={`https://i.imgur.com/HwFWvwd.jpeg`}
+            src={`https://i.imgur.com/v2U4iRP.png`}
             rounded="xl"
             fallback={<Skeleton />}
           />

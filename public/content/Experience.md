@@ -5,8 +5,10 @@
 - Badges:
   -  [blue]
 - List Items:
-  - Building & maintaining web applications with Laravel PHP, Vue.js, and Inertia.js.
-  - Creating and maintaining data dashboards using Power BI, SQL Server, and Excel.
+  - Engineered internal reporting and data collection systems to drive organizational digital transformation and centralize key enterprise workflows.
+  - Developed interactive Power BI dashboards to track operational metrics, monitor performance, and provide actionable insights across the enterprise.
+  - Produced high-level analytical reports and recommendations for the Chairman’s Office to assist in anticipating future risks and strategic planning.
+
 
 ## Alaan For IT & Communication
 - *Systems Engineer* | Mars 2024 - November 2024
