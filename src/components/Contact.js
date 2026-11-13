@@ -5,24 +5,12 @@ import {
   Container,
   Box,
   HStack,
-  Link,
   Heading,
   Center,
 } from "@chakra-ui/react";
-import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
-import ProfileArray from "./ProfileArray";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 export default function Contact({ color }) {
-  const profile = ProfileArray();
-  const linkedin = () => {
-    window.open(`${profile.linkedin}`, "_blank", "noreferrer,noopener");
-  };
-  const github = () => {
-    window.open(`${profile.github}`, "_blank", "noreferrer,noopener");
-  };
-  const email = () => {
-    window.open(`mailto:${profile.email}`, "_blank", "noreferrer,noopener");
-  };
   return (
     <>
       <Container maxW={"3xl"} id="contact">
@@ -48,8 +36,8 @@ export default function Contact({ color }) {
             </Text>
             <Center>
               <HStack pt={4} spacing={4}>
-                <a href="https://linkedin.com/in/alaref-abushaala" target="_blank" ><FaLinkedin size={28}/></a>
-                <a href="https://github.com/alaref-codes" target="_blank"><FaGithub onClick={github} size={28} /></a>
+                <a href="https://linkedin.com/in/alaref-abushaala" target="_blank" rel="noreferrer"><FaLinkedin size={28}/></a>
+                <a href="https://github.com/alaref-codes" target="_blank" rel="noreferrer"><FaGithub size={28} /></a>
               </HStack>
             </Center>
           </Stack>

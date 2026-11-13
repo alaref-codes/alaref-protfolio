@@ -13,8 +13,6 @@ import {
   Link,
   Icon
 } from '@chakra-ui/react';
-// Here we have used react-icons package for the icons
-import { GoChevronRight } from 'react-icons/go';
 import { MdBolt } from 'react-icons/md';
 
 const HeroSection = () => {

@@ -6,7 +6,6 @@ import {
   Box,
   HStack,
   Button,
-  ButtonGroup,
   Card,
   CardBody,
   Image,
@@ -14,24 +13,14 @@ import {
   SimpleGrid,
   Badge,
   Link,
-  Center,
 } from "@chakra-ui/react";
 import { Fade } from "react-reveal";
-import { useState } from "react";
 import ProjectsArray from "./ProjectsArray";
 import OtherProjectsArray from "./OtherProjectsArray";
-import TagsArray from "./TagsArray";
 
 export default function Projects({ color }) {
     const projects = ProjectsArray();
     const others = OtherProjectsArray();
-    const options = TagsArray("ProjectsTags");
-    
-    const [selected, setSelected] = useState("All");
-
-    const handleSelected = (value) => {
-      setSelected(value);
-    };
     
   return (
     <>
@@ -70,7 +59,7 @@ export default function Projects({ color }) {
 
                       <HStack py={2}>
                         {project.buttons.map((button) => (
-                          <a key={button.text} target="_blank" href={button.href}>
+                          <a key={button.text} target="_blank" rel="noreferrer" href={button.href}>
                             <Button color={`${color}.400`}>
                               {button.text}
                             </Button>
@@ -94,15 +83,7 @@ export default function Projects({ color }) {
             ))}
           </Stack>
           <SimpleGrid columns={[1, 2, 3]} px={4} spacing={4}>
-            {others
-              .filter((other) => {
-                if (selected === "All") {
-                  return true;
-                } else {
-                  return other.tags.includes(selected);
-                }
-              })
-              .map((other) => (
+            {others.map((other) => (
                 <Fade bottom>
                   <Card key={other.name}>
                     <Stack>
