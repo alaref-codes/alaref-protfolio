@@ -26,7 +26,7 @@ const HeroSection = () => {
 
   const resume = () => {
     window.open(
-                "https://docs.google.com/presentation/d/e/2PACX-1vSiIjsZphIHiyTKdidLtjVBlKlvGQzem-2DKz3ejfBO5D-avYbqcOfBP-WsmAwZoYNJ2JI5Jy-8Jm-O/pub?start=false&loop=false&delayms=3000",
+                "https://docs.google.com/presentation/d/e/2PACX-1vQxxcPCMCcpVJT1z75vzkkLNnuVpyUh7IYKq_cuD2on9aHQ3qQGJVhlVOcAbNhqVAPjs8toIqel9cMp/pub?start=false&loop=false&delayms=3000",
                 "_blank",
                 "noreferrer,noopener"
               );
