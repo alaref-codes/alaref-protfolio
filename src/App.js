@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Courses from './components/Courses';
 import Skills from './components/Skills';
+import Certifications from './components/Certifications';
 
 function App() {
   // Available Colours:
@@ -23,6 +24,7 @@ function App() {
       <HeaderTwo />      
       <About color={color} />
       <Skills color={"blue"} />
+      <Certifications color={color} />
       <Experience color={color} />
       <Projects color={color} />
       <Courses color={color} />

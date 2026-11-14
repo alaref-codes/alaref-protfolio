@@ -44,7 +44,7 @@ import {
             <Stack align="center" direction="row" px={4}>
               <HStack mx={4}>
                 <Text color={`${color}.400`} fontWeight={800}>
-                  03
+                  06
                 </Text>
                 <Text fontWeight={800}>courses</Text>
               </HStack>

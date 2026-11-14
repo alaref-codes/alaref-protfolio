@@ -32,23 +32,48 @@ const HeroSection = () => {
               );
   };
   return (
-    <Container maxW="6xl" px={{ base: 6, md: 3 }} py={24}>
-      <Stack direction={{ base: 'column', md: 'row' }} justifyContent="center">
-        <Stack direction="column" spacing={6} justifyContent="center" maxW="480px">
+    <Container id="hero" maxW="7xl" px={{ base: 6, md: 8, xl: 4 }} py={{ base: 24, lg: 28 }}>
+      <Stack
+        align="center"
+        direction={{ base: 'column', lg: 'row' }}
+        justifyContent="space-between"
+        spacing={{ base: 12, lg: 14 }}
+      >
+        <Stack
+          direction="column"
+          flex={{ lg: '0 0 46%' }}
+          justifyContent="center"
+          maxW={{ base: '100%', lg: '580px' }}
+          spacing={6}
+          w="100%"
+        >
           <HStack
             as={Link}
-            p={1}
+            px={4}
+            py={2}
             rounded="full"
-            fontSize="sm"
             w="max-content"
+            maxW="100%"
             bg={useColorModeValue('gray.300', 'gray.700')}
           >
-          <chakra.h1 fontSize="5xl" lineHeight={1} fontWeight="bold" textAlign="left">
-            العارف أبو شعالة<br />
-          </chakra.h1>           
+          <chakra.h1
+            fontSize={{ base: '3xl', sm: '4xl', xl: '5xl' }}
+            lineHeight={1}
+            fontWeight="bold"
+            textAlign="left"
+            whiteSpace={{ lg: 'nowrap' }}
+          >
+            العارف أبو شعالة
+          </chakra.h1>
           </HStack>
-          <chakra.h1 fontSize="5xl" lineHeight={1} fontWeight="bold" textAlign="left">
-            Alaref Abushaala<br />
+          <chakra.h1
+            fontSize={{ base: '4xl', sm: '5xl', xl: '6xl' }}
+            lineHeight={1.05}
+            fontWeight="bold"
+            textAlign="left"
+            whiteSpace={{ lg: 'nowrap' }}
+          >
+            Alaref Abushaala
           </chakra.h1>
           <Text
             fontSize="1.2rem"
@@ -90,15 +115,21 @@ const HeroSection = () => {
             </Button>
           </HStack>
         </Stack>
-        <Box ml={{ base: 0, md: 5 }} pos="relative">
+        <Box
+          flex={{ lg: 1 }}
+          maxW={{ base: '100%', lg: '620px' }}
+          ml={{ base: 0, lg: 'auto' }}
+          mr={{ base: 0, xl: -8 }}
+          pos="relative"
+          w="100%"
+        >
           <DottedBox />
           <Image
-            w="90%"
-            h="90%"
-            minW={{ base: 'auto', md: '30rem' }}
+            h="auto"
             objectFit="cover"
             src={`https://i.imgur.com/NuM7VcN.png`}
             rounded="xl"
+            w="100%"
             fallback={<Skeleton />}
           />
         </Box>

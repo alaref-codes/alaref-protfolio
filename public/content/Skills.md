@@ -5,10 +5,10 @@
 - Badges:
   -  [blue]
 - List Items:
-  - Golang
   - PHP Laravel
+  - Golang
   - MySql & Sql Server
-  - .Net Framework
+  - Power Bi & Excel
   - ReactJs & NextJs
 
 ## Other Skills
@@ -22,7 +22,7 @@
   - UML Diagrams
   - Linux
   - Git & Github
-  - Documentation
+  - Data Analysis
   
 
   
