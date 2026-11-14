@@ -7,9 +7,7 @@
 - Building Software Solution.
 
 ## About
-Software Engineer with experience building web applications, APIs, and multi-tenant systems using
-Laravel, Go, Node.js, and MySQL. Combines software development with data analysis, including internal
-reporting systems and Power BI dashboards in the telecommunications sector.
+Software Engineer with experience building web applications, APIs, and multi-tenant systems using Laravel, Go, Node.js, and MySQL. Combines software development with data analysis,including internal reporting systems and Power BI dashboards in the telecommunications sector.
  
 ## Contact
 - LinkedIn: https://linkedin.com/in/alaref-abushaala
